@@ -1,4 +1,14 @@
 {
   "item.eydis_realms.ruby": "Ruby",
-  "block.eydis_realms.ruby_block": "Ruby Block"
+  "block.eydis_realms.ruby_block": "Ruby Block",
+  "item.eydis_realms.ruby_ingot": "Ruby Ingot",
+  "item.eydis_realms.ruby_nugget": "Ruby Nugget",
+  "item.eydis_realms.topaz": "Topaz",
+  "block.eydis_realms.topaz_block": "Topaz Block",
+  "item.eydis_realms.topaz_ingot": "Topaz Ingot",
+  "item.eydis_realms.topaz_nugget": "Topaz Nugget",
+  "item.eydis_realms.sapphire": "Sapphire",
+  "block.eydis_realms.sapphire_block": "Sapphire Block",
+  "item.eydis_realms.sapphire_ingot": "Sapphire Ingot",
+  "item.eydis_realms.sapphire_nugget": "Sapphire Nugget"
 }

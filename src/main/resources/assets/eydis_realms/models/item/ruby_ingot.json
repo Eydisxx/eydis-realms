@@ -1,0 +1,6 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "eydis_realms:item/ruby_ingot"
+  }
+}

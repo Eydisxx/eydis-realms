@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "eydis_realms:block/topaz_block"
+    }
+  }
+}

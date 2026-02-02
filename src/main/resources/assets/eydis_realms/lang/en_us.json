@@ -10,5 +10,7 @@
   "item.eydis_realms.sapphire": "Sapphire",
   "block.eydis_realms.sapphire_block": "Sapphire Block",
   "item.eydis_realms.sapphire_ingot": "Sapphire Ingot",
-  "item.eydis_realms.sapphire_nugget": "Sapphire Nugget"
+  "item.eydis_realms.sapphire_nugget": "Sapphire Nugget",
+
+  "creativetab.eydis_realms_tab": "Eydis Realms Tab"
 }

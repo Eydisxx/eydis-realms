@@ -28,6 +28,9 @@ public class eydis_realms {
         IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
 
 
+
+        ModCreativeModeTabs.register(modEventBus);
+        
         ModItems.register(modEventBus);
         ModBlocks.register(modEventBus);
 

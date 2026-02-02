@@ -1,5 +1,6 @@
 package net.eydis.eydis_realms;
 
+import net.eydis.eydis_realms.item.ModCreativeModeTabs;
 import org.slf4j.Logger;
 
 import com.mojang.logging.LogUtils;

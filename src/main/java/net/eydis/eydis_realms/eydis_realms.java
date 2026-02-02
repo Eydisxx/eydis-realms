@@ -1,6 +1,7 @@
 package net.eydis.eydis_realms;
 
 import com.mojang.logging.LogUtils;
+import net.eydis.eydis_realms.block.ModBlocks;
 import net.eydis.eydis_realms.item.ModItems;
 import net.minecraft.world.item.CreativeModeTabs;
 import net.minecraftforge.api.distmarker.Dist;
@@ -26,6 +27,9 @@ public class eydis_realms {
 
 
         ModItems.register(modEventBus);
+        ModBlocks.register(modEventBus);
+
+
 
         modEventBus.addListener(this::commonSetup);
 
@@ -44,6 +48,9 @@ public class eydis_realms {
             event.accept(ModItems.RUBY);
         }
 
+        if(event.getTabKey() == CreativeModeTabs.BUILDING_BLOCKS) {
+            event.accept(ModBlocks.RUBY_BLOCK);
+        }
     }
 
     // You can use SubscribeEvent and let the Event Bus discover methods to call

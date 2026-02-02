@@ -1,0 +1,12 @@
+{
+    "type": "minecraft:smelting",
+    "category": "misc",
+    "cookingtime": 200,
+    "experience": 0.1,
+    "group": "ruby",
+    "ingredient": {
+        "item": "eydis_realms:ruby_ore"
+    },
+    "result": "eydis_realms:ruby"
+    
+}

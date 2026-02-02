@@ -54,6 +54,10 @@ public class eydis_realms {
         }
 
         if(event.getTabKey() == CreativeModeTabs.INGREDIENTS) {
+            event.accept(ModItems.RUBY_ORE);
+        }
+
+        if(event.getTabKey() == CreativeModeTabs.INGREDIENTS) {
             event.accept(ModItems.RUBY_INGOT);
         }
 
@@ -66,6 +70,9 @@ public class eydis_realms {
         }
 
         if(event.getTabKey() == CreativeModeTabs.INGREDIENTS) {
+            event.accept(ModItems.TOPAZ_ORE);
+        }
+        if(event.getTabKey() == CreativeModeTabs.INGREDIENTS) {
             event.accept(ModItems.TOPAZ_INGOT);
         }
 
@@ -77,6 +84,10 @@ public class eydis_realms {
             event.accept(ModItems.SAPPHIRE);
         }
 
+        if(event.getTabKey() == CreativeModeTabs.INGREDIENTS) {
+            event.accept(ModItems.SAPPHIRE_ORE);
+        }
+        
         if(event.getTabKey() == CreativeModeTabs.INGREDIENTS) {
             event.accept(ModItems.SAPPHIRE_INGOT);
         }

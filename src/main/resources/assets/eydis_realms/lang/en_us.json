@@ -12,11 +12,11 @@
   "item.eydis_realms.sapphire_ingot": "Sapphire Ingot",
   "item.eydis_realms.sapphire_nugget": "Sapphire Nugget",
 
-"block.eydis_realms.sapphire_ore": "Sapphire Ore",
-"block.eydis_realms.sapphire_block": "Sapphire Block",
-"block.eydis_realms.topaz_ore": "Topaz Ore",
-"block.eydis_realms.topaz_block": "Topaz Block",
-"block.eydis_realms.ruby_ore": "Ruby Ore",
-"block.eydis_realms.ruby_block": "Ruby Block",
+  "block.eydis_realms.sapphire_ore": "Sapphire Ore",
+  "block.eydis_realms.sapphire_block": "Sapphire Block",
+  "block.eydis_realms.topaz_ore": "Topaz Ore",
+  "block.eydis_realms.topaz_block": "Topaz Block",
+  "block.eydis_realms.ruby_ore": "Ruby Ore",
+  "block.eydis_realms.ruby_block": "Ruby Block",
   "creativetab.eydis_realms_tab": "Eydis Realms Tab"
 }

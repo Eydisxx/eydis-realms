@@ -1,5 +1,6 @@
 package net.eydis.eydis_realms;
 
+import net.eydis.eydis_realms.item.ModCreativeModeTabs;
 import org.slf4j.Logger;
 
 import com.mojang.logging.LogUtils;
@@ -54,7 +55,7 @@ public class eydis_realms {
         }
 
         if(event.getTabKey() == CreativeModeTabs.INGREDIENTS) {
-            event.accept(ModItems.RUBY_ORE);
+            event.accept(ModItems.RAW_RUBY);
         }
 
         if(event.getTabKey() == CreativeModeTabs.INGREDIENTS) {
@@ -70,7 +71,7 @@ public class eydis_realms {
         }
 
         if(event.getTabKey() == CreativeModeTabs.INGREDIENTS) {
-            event.accept(ModItems.TOPAZ_ORE);
+            event.accept(ModItems.RAW_TOPAZ);
         }
         if(event.getTabKey() == CreativeModeTabs.INGREDIENTS) {
             event.accept(ModItems.TOPAZ_INGOT);
@@ -85,7 +86,7 @@ public class eydis_realms {
         }
 
         if(event.getTabKey() == CreativeModeTabs.INGREDIENTS) {
-            event.accept(ModItems.SAPPHIRE_ORE);
+            event.accept(ModItems.RAW_SAPPHIRE);
         }
         
         if(event.getTabKey() == CreativeModeTabs.INGREDIENTS) {
@@ -107,6 +108,19 @@ public class eydis_realms {
         if(event.getTabKey() == CreativeModeTabs.BUILDING_BLOCKS) {
             event.accept(ModBlocks.SAPPHIRE_BLOCK);
         }
+
+        if(event.getTabKey() == CreativeModeTabs.BUILDING_BLOCKS) {
+            event.accept(ModBlocks.RUBY_ORE);
+        }
+
+        if(event.getTabKey() == CreativeModeTabs.BUILDING_BLOCKS) {
+            event.accept(ModBlocks.TOPAZ_ORE);
+        }
+
+        if(event.getTabKey() == CreativeModeTabs.BUILDING_BLOCKS) {
+            event.accept(ModBlocks.SAPPHIRE_ORE);
+        }
+
     }
 
     // You can use SubscribeEvent and let the Event Bus discover methods to call

@@ -14,7 +14,7 @@ public class ModItems {
     public static final RegistryObject<Item> RUBY = ITEMS.register("ruby",
             () -> new Item(new Item.Properties()));
 
-    public static final RegistryObject<Item> RUBY_ORE = ITEMS.register("ruby_ore",
+    public static final RegistryObject<Item> RAW_RUBY = ITEMS.register("raw_ruby",
             () -> new Item(new Item.Properties()));
     
     public static final RegistryObject<Item> RUBY_INGOT = ITEMS.register("ruby_ingot",
@@ -26,7 +26,7 @@ public class ModItems {
     public static final RegistryObject<Item> TOPAZ = ITEMS.register("topaz",
             () -> new Item(new Item.Properties()));
 
-    public static final RegistryObject<Item> TOPAZ_ORE = ITEMS.register("topaz_ore",
+    public static final RegistryObject<Item> RAW_TOPAZ = ITEMS.register("raw_topaz",
             () -> new Item(new Item.Properties()));
 
     public static final RegistryObject<Item> TOPAZ_INGOT = ITEMS.register("topaz_ingot",
@@ -38,7 +38,7 @@ public class ModItems {
     public static final RegistryObject<Item> SAPPHIRE = ITEMS.register("sapphire",
             () -> new Item(new Item.Properties()));
 
-    public static final RegistryObject<Item> SAPPHIRE_ORE = ITEMS.register("sapphire_ore",
+    public static final RegistryObject<Item> RAW_SAPPHIRE = ITEMS.register("raw_sapphire",
             () -> new Item(new Item.Properties()));
     
     public static final RegistryObject<Item> SAPPHIRE_INGOT = ITEMS.register("sapphire_ingot",

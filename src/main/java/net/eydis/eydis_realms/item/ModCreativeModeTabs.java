@@ -24,21 +24,9 @@ public class ModCreativeModeTabs {
                         output.accept(ModItems.RAW_RUBY.get());
                         output.accept(ModItems.RUBY_INGOT.get());
                         output.accept(ModItems.RUBY_NUGGET.get());
-                        output.accept(ModItems.TOPAZ.get());
-                        output.accept(ModItems.RAW_TOPAZ.get());
-                        output.accept(ModItems.TOPAZ_INGOT.get());
-                        output.accept(ModItems.TOPAZ_NUGGET.get());
-                        output.accept(ModItems.SAPPHIRE.get());
-                        output.accept(ModItems.RAW_SAPPHIRE.get());
-                        output.accept(ModItems.SAPPHIRE_INGOT.get());
-                        output.accept(ModItems.SAPPHIRE_NUGGET.get());
-                    
+                        
                         output.accept(ModBlocks.RUBY_BLOCK.get());
-                        output.accept(ModBlocks.TOPAZ_BLOCK.get());
-                        output.accept(ModBlocks.SAPPHIRE_BLOCK.get());
                         output.accept(ModBlocks.RUBY_ORE.get());
-                        output.accept(ModBlocks.TOPAZ_ORE.get());
-                        output.accept(ModBlocks.SAPPHIRE_ORE.get());
 
                     }).build());
 

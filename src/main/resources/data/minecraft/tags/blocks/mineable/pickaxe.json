@@ -4,8 +4,6 @@
         "eydis_realms:ruby_block",
         "eydis_realms:topaz_block",
         "eydis_realms:sapphire_block",
-        "eydis_realms:ruby_ore",
-        "eydis_realms:topaz_ore",
-        "eydis_realms:sapphire_ore"       
+        "eydis_realms:ruby_ore"     
     ]
 }
